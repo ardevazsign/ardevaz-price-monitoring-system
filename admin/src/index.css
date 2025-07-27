@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+* {
+  font-family: Saira;
+}
+
+select,
+input,
+textarea {
+  border: 1px solid orange;
+  outline: whitesmoke;
+  border-radius: 4px;
+}
+
+.active {
+  background-image: linear-gradient(to right, #07e0f0, #ffffff, #07e0f0);
+  border: 2px solid azure;
+  font-weight: 600;
+}
